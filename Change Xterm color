@@ -1,0 +1,35 @@
+#!/bin/bash
+
+touch ~/.Xresources
+
+nano ~/.Xresources
+
+#paste
+
+                          
+! XTERM COLORS & FONTS
+! !-----------------------------------------------
+XTerm.vt100.foreground: white
+XTerm.vt100.background: rgb:14/14/14
+XTerm.vt100.color0: rgb:28/28/28
+XTerm.vt100.faceName: Monospace:size=10:antialias=false
+XTerm.vt100.font: 7x13
+
+! XTERM COPY/PASTE
+! !----------------------------------------------
+XTerm.selectToClipboard: true
+
+
+
+
+#refresh bash by running
+
+
+xrdb ~/.Xresources
+
+
+
+
+
+
+
